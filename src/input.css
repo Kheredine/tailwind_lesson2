@@ -11,3 +11,9 @@
         @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent
     }
 }
+
+@layer components {
+    .box {
+        @apply w-40 h-40 text-[2em] flex justify-center items-center rounded-2xl
+    }
+}
